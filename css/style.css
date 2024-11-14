@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sticky-menu {
+    background-color: #222;
+    padding: 20px 0;
+    position: sticky;
+    top:10px;
+    z-index: 10;
+}
+
+.sticky-menu ul {
+    list-style: none;
+}
+
+.sticky-menu a{
+    color: white;
+    
+}
+
+.caja {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+
+.circulo {
+    background-color: mediumseagreen;
+    border-radius: 100%;
+
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.caja1 {
+    background-color: mediumblue;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    color: white;
+}
+
+.caja2 {
+    background-color: pink;
+}
+
+.caja3 {
+    background-color: magenta;
+}
+
+.caja4 {
+    background-color: pink;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 20;
+}
+
+.caja5 {
+    background-color: darkcyan;
+}
+
+.contenedor{
+    position: relative;
+    background-color: pink;
+    width: 400px;
+    height: 400px;
+}
+
+.relativeAbsolute {
+    background-color: darkorange;
+    position: absolute;
+    right: 40%;
+    top: 0;
+}
+
+
+
+/* .footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+} */
+
+/* CSS Position */
+
+header.fixed {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
+}
+
+main {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.relative {
+    background-color: lightsalmon;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.relative-box {
+    position: relative;
+    left: 20px;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.absolute {
+    background-color: darkcyan;
+    padding: 20px;
+    height: 200px;
+    position: relative;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.sticky {
+    background-color: lightgreen;
+    height: 400px;
+    padding: 20px;
+}
+
+.button-sticky {
+    position: sticky;
+    top: 0px;
+    padding: 10px 20px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+
+    
+}
